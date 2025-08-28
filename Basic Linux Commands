@@ -1,0 +1,55 @@
+
+
+Basic navigation commands and manipulation commands:
+    1.pwd (Print Working Directory)
+        Command: pwd | e.g., /home/kavidi
+    2.ls (List): Lists files and directories in the current folder.
+        Command: ls -la (The -l flag shows a detailed list, -a shows hidden files)
+    3.cd (Change Directory): Navigates to a specified directory.
+        Command: cd /var/log
+    4.mkdir (Make Directory): Creates a new directory.
+        Command: mkdir test_folder
+    5.rmdir (Remove Directory): Deletes an empty directory.
+        Command: rmdir test_folder
+    6.touch: Creates a new, empty file.
+        Command: touch example.txt
+    7.cp (Copy): Copies a file or directory.
+        Command: cp example.txt example_backup.txt
+    8.mv (Move): Moves or renames a file or directory.
+        Command: mv example.txt new_name.txt
+    
+    rm (Remove): Deletes a file.
+    
+    Command: rm new_name.txt (Use rm -r for directories)
+    
+    cat (Concatenate): Displays the contents of a file.
+    
+    Command: cat /etc/os-release (Shows Linux distro info)
+    
+    sudo (SuperUser DO): Executes a command with root privileges.
+    
+    Command: sudo apt update 
+    
+    df (Disk Free): Shows disk space usage.
+    
+    Command: df -h (The -h flag shows sizes in human-readable format like MB, GB)
+    
+    free: Shows amount of free and used memory in the system.
+    
+    Command: free -h
+    
+    uname: Prints system information.
+    
+    Command: uname -a (The -a flag shows all info, including architecture x86_64)
+    
+    adduser: Adds a new user.
+    
+    Command: sudo adduser testuser (Follow the prompts)
+    
+    passwd: Changes a user's password.
+    
+    Command: sudo passwd testuser
+    
+    usermod: Modifies a user account (e.g., add to sudo group).
+    
+    Command: sudo usermod -aG sudo testuser (Grants testuser admin rights)
