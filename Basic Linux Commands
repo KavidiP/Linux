@@ -51,5 +51,44 @@ Basic navigation commands and manipulation commands:
     Command: sudo passwd testuser
     
     usermod: Modifies a user account (e.g., add to sudo group).
+
+
+
+
+
+UNIX Commands
+		
+Command 	Meaning 	example
+pwd	Working directory	/home/kavidip
+whoami	user	kavidip
+who	Username , terminal , last modified date	kavidip  tty7         2025-02-23 21:09 (:0)
+finger username 	Information of the user	Login: kavidip                          Name: KavidiP
+Directory: /home/kavidip                Shell: /usr/bin/zsh
+On since Sun Feb 23 21:09 (IST) on tty7 from :0
+   4 minutes 48 seconds idle
+No mail.
+No Plan.
+ls	List of the directories and files	Desktop  Documents  Downloads  Music  Pictures  Public  Templates  test1  test2  Videos
+ls -l	List in long format	
+ls -al	List all hidden files in long format	
+cd	Change Directory	
+cd .	Change current directory	
+cd ..	Goes to parent directory	/home
+/	Root directory	
+cat	(Concatenate) 
+Create a new file    = cat > file_name -> ctrl+D	
+vi file_name	To modify the file	
+nano		
+mkdir / rmdir	Make or remove directory = mkdir name	
+mv existing_fileName new_fileName	Move file	
+mv fime_ name directory		
+		
+		
+		
+		
+		
+		
+
+
     
     Command: sudo usermod -aG sudo testuser (Grants testuser admin rights)
